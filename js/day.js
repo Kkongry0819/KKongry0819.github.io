@@ -84,6 +84,12 @@ if (m == 5 && dd == 20) {//520
         sessionStorage.setItem("isPopupWindow", "1");
     }
 }
+if (m == 5 && dd == 22) {//522
+    if (sessionStorage.getItem("isPopupWindow") != "1") {
+        Swal.fire("汤乔雅生日快乐！🎂\n");
+        sessionStorage.setItem("isPopupWindow", "1");
+    }
+}
 if (m == 7 && dd == 1) {//建党节
     if (sessionStorage.getItem("isPopupWindow") != "1") {
         Swal.fire("祝中国共产党" + (y - 1921).toString() + "岁生日快乐！");

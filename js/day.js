@@ -86,7 +86,7 @@ if (m == 5 && dd == 20) {//520
 }
 if (m == 5 && dd == 22) {//522
     if (sessionStorage.getItem("isPopupWindow") != "1") {
-        Swal.fire("汤乔雅生日快乐！🎂\n");
+        Swal.fire("汤乔雅生日快乐呐！🎂\n");
         sessionStorage.setItem("isPopupWindow", "1");
     }
 }

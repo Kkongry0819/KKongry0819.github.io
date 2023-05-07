@@ -5,8 +5,8 @@
     
     <entry>
       <title>关于ACill码对应的部分字符在控制台打印的方案</title>
-      <link href="/article/eca80192.html"/>
-      <url>/article/eca80192.html</url>
+      <link href="/article/23925fdf.html"/>
+      <url>/article/23925fdf.html</url>
       
         <content type="html"><![CDATA[<h1 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h1><p>很多同学在本次课设无法在Windows控制台主机上打印<code>♥️♦︎♠♣</code>这一类方块，很是困扰，既不好意思询问老师，也在网上没有找到相对简单的解决方案。<br><img src="https://pic.dreamskiff.com/img/post/0507_1.png" alt=""><br>下面我将给出我发现的最简单的解决方案。</p><h1 id="正文"><a href="#正文" class="headerlink" title="正文"></a>正文</h1><ol><li>用<code>IDE</code>（Visual Studio 2022）打开目标工程文件，<kbd>Ctrl</kbd> + <kbd>F5</kbd>执行运行步骤。</li><li>右击顶部标题栏，选择<code>默认值（D）</code>,如果你使用的是Windows终端<emp>注意！不是Windows控制台主机</emp>，选择<code>设置</code>，将其改为Windows控制台主机，保存关闭，重新1步骤。<br><img src="https://pic.dreamskiff.com/img/post/0507_2.png" alt=""></li><li>在<code>字体(F)</code>中找到<code>点阵字体</code>，选择并点击确定。</li><li>关闭当前控制台，重复1步骤。<br>我们看到花色正常显示了出来。<br><img src="https://pic.dreamskiff.com/img/post/0507_3.png" alt=""></li></ol>]]></content>
       
